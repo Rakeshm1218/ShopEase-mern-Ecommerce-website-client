@@ -50,7 +50,8 @@ const Login = () => {
                             Email Address
                         </label>
 
-                        <input type="email" id="email" className="mt-1 p-2 border rounded w-full outline-none"
+                        <input type="email" id="email" className="mt-1 p-2 rounded w-full outline-none text-white bg-neutral-600 border-none "
+                        placeholder="Enter email"
                         value={email}
                         onChange={e => setEmail(e.target.value)}/>
                     </div>
@@ -60,7 +61,8 @@ const Login = () => {
                             Password
                         </label>
 
-                        <input type="password" id="password" className="mt-1 p-2 border rounded w-full outline-none"
+                        <input type="password" id="password" className="mt-1 p-2  rounded w-full  text-white bg-neutral-600 border-none outline-none"
+                        placeholder="Enter password"
                         value={password}
                         onChange={e => setPassword(e.target.value)}/>
                     </div>
